@@ -11,7 +11,6 @@ marks_values = marks.values()
 marks_items = marks.items() # pair eksathe
 print(f'{marks_keys}\n {marks_values}\n {marks_items}')
 
-
-
 marks.clear()
+
 print(marks)
