@@ -7,7 +7,7 @@ new_data = data.lower()
 output_data = ""
 
 n = len(output_data)
-i = int(0)
+i = 0
 
 for c in new_data :
     if (c == 'a'  or c == 'e' or c == 'i'  or c == 'o' or c == 'u') :

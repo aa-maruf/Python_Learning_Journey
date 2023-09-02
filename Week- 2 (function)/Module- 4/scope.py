@@ -2,6 +2,7 @@
 global variable ki?
 global variable ke function er vitore value set kra jabe na.
 seta kra jonno global keyword use krte hbe
+but using global isn't not recommendable
 conceptual class. 
 Link : https://phitron.io/ph891/video/ph891-4-4-access-and-modify-global-variables
 
