@@ -15,7 +15,7 @@ mul (12)
 def product(*numbers) :   #args
     add = int(1)
     for num in numbers :
-        add*= num
+        add += num
     return add
 print("product function output: ")
 print(product (10, 20 ,30))

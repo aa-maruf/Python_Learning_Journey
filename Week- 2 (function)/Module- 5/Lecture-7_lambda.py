@@ -26,11 +26,23 @@ print(sum)
 
 
 # Use of python map and lambda function
-numbers = [12, 11, 10, 9]
+numbers = [12, 11, 10, 9 , 50]
 double_it = lambda x : x * 2
-
 doubled_num = map(double_it, numbers)
 doubled_num2 = map(lambda x : x* 2, numbers)
 
 print(f'numbers: {numbers}\ndoubled_num : {list(doubled_num)}\ndoubled_num2 : {list(doubled_num2)}')
 
+
+bigger_numbers = filter(lambda num : num< 50, numbers)
+print(numbers)
+print (list(bigger_numbers))
+
+players = [
+    {'name' : 'shakib' , 'age':35},
+    {'name' : 'Musfiq' , 'age':36},
+    {'name' : 'Tamim' , 'age':34} 
+    ]
+
+senior_players = filter (lambda players : players ['age'] >=35, players)
+print(list(senior_players))

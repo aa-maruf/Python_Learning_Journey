@@ -19,10 +19,11 @@ roll = [ 110, 111, 112]
 numbers.extend(roll)
 print(numbers[ : ])
 
-# insert function with try except
+# insert function 
 numbers.insert(7, 7)
 print(numbers[ : ])
 
+# remove function with try except
 try :
     numbers.remove("Nothing.. this will return valueError !")
 except: 

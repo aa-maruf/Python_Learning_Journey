@@ -9,8 +9,13 @@ num = input("Enter the number: ")
 
 ans = ""
 
-for i in range (len(num) -1 , -1, -1) :
-    ans += num[i]
+# for i in range (len(num) -1 , -1, -1) :
+#     ans += num[i]
+
+for i in reversed (num) :
+    ans += i
+
+
 
 ans = int(ans)
 print(ans)
