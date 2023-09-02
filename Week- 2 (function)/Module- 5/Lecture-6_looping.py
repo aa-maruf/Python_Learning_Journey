@@ -38,3 +38,10 @@ print(f'sum : {sum}')
 
 for subject,mark in marks.items(): # eksathe key & value duitai store hbe
     print(subject, mark)
+
+
+
+
+
+
+
