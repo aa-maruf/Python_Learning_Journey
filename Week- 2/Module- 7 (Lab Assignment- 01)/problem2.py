@@ -6,6 +6,7 @@ Use that to get your region’s weather data every 30 minute.
 
 import requests
 import time
+import creds
 
 # Solution - 1
 # city = input('input the city name:')
@@ -20,8 +21,7 @@ import time
 # Solution - 2 ( Using ...)
 def weather_data():
     ur_template = "https://api.openweathermap.org/data/2.5/weather?q=" # {city name}&appid={API key}
-    API_Key = "&appid=fd21bfe4c4df16bacd53e77bf55dd183"
-    url = ur_template + city_name + API_Key
+    url = ur_template + city_name + "&appid="+creds.API_Key    # API_key is in creds.py file
     response = requests.get(url)   # gives string or status code
     data = response.json()
 
