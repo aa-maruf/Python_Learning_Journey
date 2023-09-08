@@ -1,0 +1,33 @@
+Lab Assignment
+Phitron Python
+
+1. Find the number of dangerous words (die, fire, kill, killer, missile, bomb, burst, shoot, president, burn)  in the string ‘s’ and print them. No words should be printed twice.
+
+s = “I am feeling very dizzy tonight. But I am sure I did not fire that missile when I was drunk. Being a very professional contract killer I do not fire or plant bombs until particularly needed. Also, I do not have the courage to shoot the President let alone burst a bomb or fire a missle. Stop blaming me or my wrath will burn you into ashes. Ashes is not a brand here, my wrath is like fire, you might die kiddo. So stop pulling my legs and focus on your job. Shoot through the exit now!”
+
+2. Go to Bored API (https://www.boredapi.com/) and read the documentation. Write a code that will suggest some activities every 30 minute and show as notification. 
+Hint: In windows you can use win10toast or similar libraries to show notification on windows.
+
+3. Create a python program that takes user input string and converts into
+Capitalised 
+Upper and
+Lower case
+
+Example Input: 
+>> Enter your sentence: pHitRon
+
+Output:
+>> lower case: phitron
+>> upper: PHITRON
+>> capitalised: Phitron
+
+4. Create a chat bot that will understand if you are bored, then it will call the Bored API and suggest some activities to you in reply. It should also have the ability to tell the current time.
+
+Example:
+>> Hey robot, this house is boring. Any idea what I can do?
+Bot:  You can learn Javascript.
+>> thank you. What’s the time?
+Bot: it’s 9:30 pm sir.
+
+
+
